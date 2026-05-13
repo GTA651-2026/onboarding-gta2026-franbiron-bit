@@ -6,7 +6,7 @@
 >
 > Pour mettre à jour : cliquez sur ce fichier dans GitHub, puis sur l'icône crayon ✏️.
 
----
+V.1 - Travail #1 Cas Klarna 
 
 ## 1. Outil utilisé
 
@@ -46,5 +46,45 @@ L'IA a fourni des chiffres qui ne reflétaient pas les informations du texte. J'
 Je déclare que le contenu final reflète mon jugement personnel. Je suis responsable
 de l'exactitude, de la pertinence et du raisonnement — outil IA utilisé ou non.
 
-Nom : __
-Date : __
+Nom : Francis Biron
+Date : 2026-05-13
+
+V.2 - Travail #2 - 
+
+## 1. Outil utilisé
+
+Outil : 
+Version / date d'accès : 
+
+*(Si plusieurs outils, dupliquez cette section.)*
+
+---
+
+## 2. Ce qu'il m'a aidé à faire
+
+
+__
+
+---
+
+## 3. Sources et chiffres que j'ai vérifiés moi-même
+
+- __
+- __
+
+---
+
+## 4. Ce que j'ai modifié ou rejeté
+
+- __
+- __
+
+---
+
+## 5. Déclaration de responsabilité
+
+Je déclare que le contenu final reflète mon jugement personnel. Je suis responsable
+de l'exactitude, de la pertinence et du raisonnement — outil IA utilisé ou non.
+
+Nom : 
+Date : 
