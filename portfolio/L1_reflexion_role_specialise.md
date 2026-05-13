@@ -8,31 +8,31 @@
 
 ## Cas choisi
 
-_(Klarna / GitHub Copilot Enterprise / Morgan Stanley)_
+Klarna
 
 ## 1. Probleme d'affaires resolu
 
-_(En 2-3 phrases : quel probleme concret l'organisation cherchait-elle a resoudre ?)_
+Réduction des coûts de service client non scalables face à une base de 150 millions d'utilisateurs dans 23 marchés.
 
 ## 2. Fonction d'affaires ciblee
 
-_(Service client, developpement logiciel, analyse financiere, etc.)_
+gestion post-achat : remboursements, retours, litiges, paiements et service client
 
 ## 3. Role specialise que l'agent orchestre
 
-_(Nommez-le precisement : agent de service client, agent developpeur, agent analyste, etc.)_
+Agent de service client autonome multilingue, capable de traiter des requêtes de niveau 1 et 2 avec décisions transactionnelles.
 
 ## 4. Valeur creee — quantifiee avec donnees publiques
 
-_(Chiffres concrets issus des sources du cours. Ex. : 700 agents equivalents, 55 % plus rapide, etc.)_
+700 ETP équivalents, résolution en < 2 min (vs 11 min), -25 % de récontacts, 35+ langues, 24/7, +40 M USD de profit estimé en 2024.
 
 ## 5. Risque principal et mitigation concrete
 
-_(Quel est le risque le plus important ? Quelle mesure concrete le reduit ?)_
-
+Erosion de la qualité de l'expérience client, mitigée par l'option de transfert vers agent humain et des boucles de rétroaction continues.
+ 
 ## 6. Condition de succes pour votre organisation
 
-_(Qu'est-ce qui doit etre en place pour que ce deploiement agentique fonctionne ?)_
+Intégration API temps réel, gouvernance humaine active, données clients fiables, conformité réglementaire et gestion du changement interne.
 
 ---
 
