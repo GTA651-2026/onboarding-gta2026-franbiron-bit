@@ -10,8 +10,8 @@
 
 ## 1. Outil utilisé
 
-Outil : __
-Version / date d'accès : __
+Outil : Claude
+Version / date d'accès : Sonnet 4.6
 
 *(Si plusieurs outils, dupliquez cette section.)*
 
@@ -19,7 +19,7 @@ Version / date d'accès : __
 
 ## 2. Ce qu'il m'a aidé à faire
 
-*(Tâche précise — ex. : « structurer la section ROI », pas : « écrire le travail ».)*
+*Structure mes reponses et assure que les informations fournies soit adapté et pertinante au exigeance du travail. 
 
 __
 
@@ -27,8 +27,7 @@ __
 
 ## 3. Sources et chiffres que j'ai vérifiés moi-même
 
-*(Pour chaque affirmation ou chiffre fourni par l'IA → source primaire consultée.)*
-
+700 ETP équivalents, résolution en < 2 min (vs 11 min), -25 % de récontacts, 35+ langues, 24/7, +40 M USD de profit estimé en 2024.
 - __
 - __
 
@@ -36,8 +35,7 @@ __
 
 ## 4. Ce que j'ai modifié ou rejeté
 
-*(Ce que l'IA a proposé mais que vous avez changé, corrigé ou écarté — et pourquoi.)*
-
+L'IA a fourni des chiffres qui ne reflétaient pas les informations du texte. J'ai dû réviser les chiffres fournis afin d'assurer qu'il n'y avait pas de données inconnues.
 - __
 - __
 
