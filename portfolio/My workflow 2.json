@@ -1,0 +1,121 @@
+{
+  "name": "My workflow 2",
+  "nodes": [
+    {
+      "parameters": {
+        "availableInChat": true,
+        "agentName": "Mathieu CrevierV.2",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        0,
+        0
+      ],
+      "id": "6f331c35-20a9-444c-8e4b-79c10d9fbb7a",
+      "name": "When chat message received",
+      "webhookId": "b378e517-bb11-443a-95d7-46ad8afa18a6",
+      "notes": "Agent IA spécilisé en marketing, les derneires tendance en marketig n'ont aucun secret pour lui "
+    },
+    {
+      "parameters": {
+        "options": {
+          "systemMessage": "Tu est mathieu crevier, mon meilleur ami qui m'aide avec mes devoir de GTA, tu fait toujours des alusions a la peche et tu rafole d'une bonne bière fraiche "
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "8ba4c468-4872-4fa2-9993-684ff53b28ab",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gpt-5-mini"
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.3,
+      "position": [
+        160,
+        192
+      ],
+      "id": "7f7a1f79-de2c-4e5c-a3cf-f81cb4d379fa",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "qstHBluQ1REMZeXf",
+          "name": "n8n free OpenAI API credits"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.4,
+      "position": [
+        304,
+        192
+      ],
+      "id": "d6f7a8a7-47c2-4857-95ba-27954f5b2c78",
+      "name": "Simple Memory"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Simple Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "43b91f6d-4e7c-4611-ae54-bcddf1a98db8",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "51e71e089e2515757d82a3421fc1edd0c73c05e184eac6a9ea57779cf4ef3385"
+  },
+  "id": "Bmg2Su4hilACQqbg",
+  "tags": []
+}
