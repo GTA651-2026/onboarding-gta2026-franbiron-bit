@@ -12,11 +12,11 @@ Klarna
 
 ## 1. Probleme d'affaires resolu
 
-Réduction des coûts de service client non scalables face à une base de 150 millions d'utilisateurs dans 23 marchés.
+Enjeu de réduction des coûts du service client face à une base de 150 millions d'utilisateurs répartie dans 23 marchés.
 
 ## 2. Fonction d'affaires ciblee
 
-gestion post-achat : remboursements, retours, litiges, paiements et service client
+gestion post-achat : remboursements, retours, litiges, paiements et service client (accompagnement)
 
 ## 3. Role specialise que l'agent orchestre
 
@@ -24,15 +24,15 @@ Agent de service client autonome multilingue, capable de traiter des requêtes d
 
 ## 4. Valeur creee — quantifiee avec donnees publiques
 
-700 ETP équivalents, résolution en < 2 min (vs 11 min), -25 % de récontacts, 35+ langues, 24/7, +40 M USD de profit estimé en 2024.
+Équivalent de plus de 700 agent humain, résolution en moins de 2 min (vs 11 min pour un humain), -25 % de recontacts des clients, 35+ langues parlé, disponible 24/7, +40 M USD de profit estimé en 2024.
 
 ## 5. Risque principal et mitigation concrete
 
-Erosion de la qualité de l'expérience client, mitigée par l'option de transfert vers agent humain et des boucles de rétroaction continues.
+Il y a une erosion de la qualité de l'expérience client perçus, l'opinion est mitigée par l'option de transfert vers des agents humain et des boucles de rétroaction continues.
  
 ## 6. Condition de succes pour votre organisation
 
-Intégration API temps réel, gouvernance humaine active, données clients fiables, conformité réglementaire et gestion du changement interne.
+L'intégration d'un API en temps réel, une gouvernance humaine active, des données clients fiables, une conformité réglementaire et une gestion du changement interne.
 
 ---
 
